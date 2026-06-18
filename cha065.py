@@ -15,6 +15,7 @@ while choice != 'N':
     sum += num
     count += 1
     choice = str(input('Do you wanna continue?[Y/N] ')).upper().strip()[0]
+print('\n') #linha para melhorar a visualizacao
 print('The bigger number is: {}'.format(big))
 print('The smaller number is: {}'.format(small))
 print('The sum of all numbers is: {}'.format(sum))
